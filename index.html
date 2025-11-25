@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THOMAS SHELBY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>THOMAS SHELBY</h1>
+            </div>
+            <nav>
+                <button class="nav-btn active" data-section="bio">О ПЕРСОНЕ</button>
+                <button class="nav-btn" data-section="gallery">ГАЛЕРЕЯ</button>
+                <button class="nav-btn" data-section="quotes">ЦИТАТЫ</button>
+                <button class="nav-btn" data-section="contact">ОБРАТНАЯ СВЯЗЬ</button>
+            </nav>
+        </header>
+
+        <div class="content">
+            <!-- БИОГРАФИЯ -->
+            <section id="bio" class="section active">
+                <h2 class="section-title">Биография</h2>
+                <div class="bio-layout">
+                    <div class="bio-image">
+                        <img src="images/portrait.jpg" alt="Портрет">
+                    </div>
+                    <div class="bio-info">
+                        <div class="info-block">
+                            <h3>Ранние годы</h3>
+                            <p>Родился на окраинах Бирмингема в конце XIX века. Вырос в Смол-Хит, в рабочем районе, где семья была вынуждена. В молодости работал копателем и каналов, получив бесценный жизненный опыт и жёсткость.</p>
+                        </div>
+                        <div class="info-block">
+                            <h3>Война</h3>
+                            <p>Служил в туннельных войсках во время Первой мировой войны, участвовал в боях при Вердене и Сомме. Война закалила его характер, превратив в человека без страха, способного к безжалостным решениям.</p>
+                        </div>
+                        <div class="info-block">
+                            <h3>Острые козырьки</h3>
+                            <p>После войны, возглавил банду "Острые Козырьки", занимающуюся нелегальными букмекерскими операциями. Его амбиции постоянно растут: он стремится превратить семейное преступное дело в легальную империю.</p>
+                        </div>
+                        <div class="info-block">
+                            <h3>Характер</h3>
+                            <p>Амбициозный, расчётливый, харизматичный. Томас Шелби - человек железной воли, с предпринимательской хваткой и бесстрашием. Его жизненные принципы сформированы окопами и улицами Бирмингема.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ГАЛЕРЕЯ -->
+            <section id="gallery" class="section">
+                <h2 class="section-title">Галерея</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/gallery1.jpg" alt="Портрет">
+                        <h3>Портрет</h3>
+                        <p>Бирмингем, 1921</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery2.jpg" alt="Улицы">
+                        <h3>Улицы Бирмингема</h3>
+                        <p>Смол-Хит, место многочисленных операций</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery3.jpg" alt="Промышленность">
+                        <h3>Промышленность</h3>
+                        <p>Основа состояния семьи</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/gallery4.jpg" alt="Гаррисон">
+                        <h3>Гаррисон Паб</h3>
+                        <p>Штаб-квартира "Острых Козырьков"</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ЦИТАТЫ -->
+            <section id="quotes" class="section">
+                <h2 class="section-title">Знаменитые цитаты</h2>
+                <div class="quote-list">
+                    <div class="quote-item">
+                        <span class="quote-number">01</span>
+                        <p class="quote-text">Я думаю о вещах, мне нужно думать о вещах, чтобы вы спали в тиши.</p>
+                        <p class="quote-context">— О войне и её последствиях</p>
+                    </div>
+                    <div class="quote-item">
+                        <span class="quote-number">02</span>
+                        <p class="quote-text">Все знают, что мы любим разум перед кулаком.</p>
+                        <p class="quote-context">— О методе ведения дел</p>
+                    </div>
+                    <div class="quote-item">
+                        <span class="quote-number">03</span>
+                        <p class="quote-text">Умом можешь не бояться никого и ничего мира. Всегда помнишься, не от зла мания.</p>
+                        <p class="quote-context">— О силе интеллекта и стратегии</p>
+                    </div>
+                    <div class="quote-item">
+                        <span class="quote-number">04</span>
+                        <p class="quote-text">В этом мире есть Бог, так точно более есть, потому должны быть солдаты, в бескопайных боях, которая никогда остановится.</p>
+                        <p class="quote-context">— О духовном восприятии</p>
+                    </div>
+                    <div class="quote-item">
+                        <span class="quote-number">05</span>
+                        <p class="quote-text">Я не Бог. Не дьявол. Я Томас Шелби.</p>
+                        <p class="quote-context">— О самоопределении</p>
+                    </div>
+                    <div class="quote-item">
+                        <span class="quote-number">06</span>
+                        <p class="quote-text">Все дело в том, наше первых достоинств репутацию. А я всегда доставал свой первым.</p>
+                        <p class="quote-context">— О тактике выживания</p>
+                    </div>
+                </div>
+            </section>
+
+        <!-- ОБРАТНАЯ СВЯЗЬ -->
+<section id="contact" class="section">
+    <h2 class="section-title">Обратная связь</h2>
+    <div class="contact-intro">
+        <p>Оставьте своё сообщение для связи. По вопросам сотрудничества, важные события будут рассмотрены.</p>
+    </div>
+    
+    <div class="error-message" id="errorMessage"></div>
+    <div class="success-message" id="successMessage">✓ Сообщение отправлено! Когда нибудь оно дойдет и мы вам ответим...</div>
+    
+    <form id="contactForm" action="https://formsubmit.co/proverka1q2w@gmail.com" method="POST">
+        <!-- Настройки FormSubmit -->
+        <input type="hidden" name="_subject" value="Новое сообщение с сайта Thomas Shelby">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_autoresponse" value="Спасибо за ваше сообщение! Мы свяжемся с вами в ближайшее время.">
+        
+        <div class="form-group">
+            <label for="name">Имя *</label>
+            <input type="text" id="name" name="Имя" required minlength="2">
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Электронная почта *</label>
+            <input type="email" id="email" name="Email" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="message">Сообщение *</label>
+            <textarea id="message" name="Сообщение" required minlength="10"></textarea>
+        </div>
+        
+        <button type="submit" class="submit-btn">Отправить сообщение</button>
+    </form>
+
+    <div class="contact-footer">
+        <div class="contact-box">
+            <h3>Адрес</h3>
+            <p>Watery Lane, Бирмингем<br>Великобритания, B25</p>
+        </div>
+        <div class="contact-box">
+            <h3>Контакты</h3>
+            <p>Email: proverka1q2w@gmail.com<br>Telegram: @thomas_shelby</p>
+        </div>
+    </div>
+</section>
+        </div>
+
+        <footer>
+            <p>&copy; 1921-2025 Thomas Shelby. Все права защищены.</p>
+            <p>Сайт создан в бруталистичном стиле эпохи 1920-х годов</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
